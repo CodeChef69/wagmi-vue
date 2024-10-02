@@ -1,0 +1,30 @@
+{
+  "name": "wagmi-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "lint": "biome check .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@tanstack/vue-query": ">=5.45.0",
+    "@wagmi/vue": "latest",
+    "pinia": "^2.2.4",
+    "viem": "latest",
+    "vue": ">=3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.20",
+    "buffer": "^6.0.3",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.2.11",
+    "vue-tsc": "^2.0.6"
+  }
+}
